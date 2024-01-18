@@ -1,0 +1,15 @@
+GET http://localhost:3001/livros
+
+###
+
+POST http://localhost:3001/livros
+Content-Type: application/json
+{  
+    "id": 1,
+    "titulo": "Gravity Falls",
+    "autor": "Alex Hirsh",
+}
+
+###
+
+DELETE http://localhost:3001/livros/13
