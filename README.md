@@ -16,10 +16,10 @@ prisma
 Para clonar e executar este projeto, execute na sua linha de comando:
 
 # Clonando este repositório
-$ git clone https://github.com/LaisOli22/livraria.git
+$ git clone https://github.com/LaisOli22/Livraria.git
 
 # Acessando o repositório
-$ cd livraria
+$ cd Livraria
 
 # Instalando as dependências
 $ npm install
