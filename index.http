@@ -4,12 +4,22 @@ GET http://localhost:3001/livros
 
 POST http://localhost:3001/livros
 Content-Type: application/json
+
 {  
-    "id": 1,
-    "titulo": "Gravity Falls",
-    "autor": "Alex Hirsh",
+    "titulo": "Rumores da cidade",
+    "autor": "Lucas Rocha"
 }
 
 ###
 
-DELETE http://localhost:3001/livros/13
+PUT http://localhost:3001/livros/2
+Content-Type: application/json
+
+{
+    "titulo": "Gravity Falls",
+    "autor": "Alex Hirsch"
+}
+
+###
+
+DELETE http://localhost:3001/livros/3
